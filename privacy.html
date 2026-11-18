@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>JaviPass — Política de privacidad</title>
+<style>
+  body { font-family: system-ui, sans-serif; max-width: 720px; margin: 2rem auto; padding: 0 1rem; line-height: 1.6; color: #1b1b1f; }
+  h1 { color: #1535e0; } code { background: #f3f4fb; padding: 1px 5px; border-radius: 4px; }
+</style>
+</head>
+<body>
+<h1>Política de privacidad de JaviPass</h1>
+<p><em>Última actualización: 18 de noviembre de 2026</em></p>
+
+<p>JaviPass es un gestor de contraseñas de uso personal. Esta política explica qué datos trata la aplicación y cuáles no.</p>
+
+<h2>Qué datos guarda</h2>
+<p>Las cuentas, contraseñas, tarjetas y direcciones que el usuario introduce se guardan <strong>únicamente en su dispositivo</strong>, cifradas con una clave derivada de su contraseña maestra (Argon2id y AES-256-GCM). La contraseña maestra no se almacena ni se envía a ningún sitio y no se puede recuperar.</p>
+
+<h2>Sincronización con Google Drive (opcional)</h2>
+<p>Si el usuario activa la sincronización, JaviPass solicita el permiso de Google <code>drive.appdata</code>. Con él, la aplicación solo puede leer y escribir un fichero en su carpeta privada dentro de la cuenta de Drive del propio usuario; no puede ver ni modificar ningún otro fichero de Drive. Ese fichero ya está cifrado en el dispositivo antes de subirse, así que ni Google ni el desarrollador pueden leer su contenido.</p>
+
+<h2>Qué datos NO se recogen</h2>
+<ul>
+  <li>No hay servidores del desarrollador: JaviPass no recibe ningún dato del usuario.</li>
+  <li>No se usan analíticas, publicidad ni rastreadores.</li>
+  <li>No se comparten datos con terceros.</li>
+</ul>
+
+<h2>Autorrelleno y huella</h2>
+<p>El servicio de autorrelleno de Android lee los campos de la pantalla solo para ofrecer o guardar credenciales, y esa información no sale del dispositivo. La huella dactilar la gestiona Android: JaviPass nunca accede a los datos biométricos.</p>
+
+<h2>Eliminación de datos</h2>
+<p>Desinstalar la aplicación borra los datos locales. El fichero de sincronización puede eliminarse desde los ajustes de Google Drive (<em>Administrar aplicaciones → JaviPass → Eliminar datos ocultos</em>).</p>
+
+<h2>Contacto</h2>
+<p>Para cualquier consulta: <a href="mailto:javilillofernandez@gmail.com">javilillofernandez@gmail.com</a></p>
+</body>
+</html>
